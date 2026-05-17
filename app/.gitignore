@@ -1,0 +1,16 @@
+# Dependencies (this folder runs Node/npm)
+/node_modules/
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Typical build/output (if added later)
+dist/
+build/
+
+# Coverage
+coverage/
+.nyc_output/

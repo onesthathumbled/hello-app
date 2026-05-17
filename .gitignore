@@ -1,0 +1,18 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Environment and local secrets (all paths under this repo)
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Logs
+*.log
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
