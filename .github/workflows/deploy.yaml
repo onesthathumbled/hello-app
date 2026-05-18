@@ -30,7 +30,7 @@ jobs:
       - name: Checkout GitOps repo
         uses: actions/checkout@v4
         with:
-          repository: iamjaijaijai/hello-app-gitops
+          repository: onesthathumbled/hello-app-gitops
           token: ${{ secrets.GH_PAT }}
           path: gitops
 
