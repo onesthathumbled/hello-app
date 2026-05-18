@@ -3,9 +3,9 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello from GKE!");
+  res.send("Hello from GKE! This is the new version");
 });
 
-app.listen(3000, () => {
-  console.log("Version 2 deployed! Test again 4.");
-});
+// app.listen(3000, () => {
+//   console.log("Version 2 deployed! Test again 4.");
+// });
